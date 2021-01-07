@@ -6,7 +6,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.paper,
   },
   
-  h1: {
+  HotPostHeader: {
     fontSize:40,
     color:"red"
   },  
