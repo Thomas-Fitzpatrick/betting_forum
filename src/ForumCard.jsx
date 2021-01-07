@@ -17,7 +17,9 @@ export default function ForumCard({ userId, title }) {
 
         <Typography variant="body2" component="p">
           User: {userId}
-        </Typography>
+        </Typography> 
+
+        
       </CardContent>
     </Card>
   );
