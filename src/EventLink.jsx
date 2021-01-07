@@ -15,6 +15,7 @@ export default function EventLink({ eventtitle }) {
   const classes = useStyles();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   return (
     <div className={classes.root}>
       <div className={classes.link}>{eventtitle}</div>
@@ -32,3 +33,11 @@ export default function EventLink({ eventtitle }) {
   );
 }
 >>>>>>> 048884b... Added navigation for event links
+=======
+  return (
+    <div className={classes.root}>
+      <div className={classes.link}>{eventtitle}</div>
+    </div>
+  );
+}
+>>>>>>> a106866... Prettier

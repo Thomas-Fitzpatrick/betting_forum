@@ -61,10 +61,14 @@ export default function Home(props) {
        
       <div className={classes.HotPosts}>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <h1 className={classes.HotPostHeader}>Hot Posts</h1> 
 =======
       <h1 className={classes.h1}>Hot Posts</h1> 
 >>>>>>> 048884b... Added navigation for event links
+=======
+      <h1 className={classes.HotPostHeader}>Hot Posts</h1> 
+>>>>>>> a106866... Prettier
       <List component="nav" aria-label="secondary mailbox folders">
         {posts.map((post) => (
           <>

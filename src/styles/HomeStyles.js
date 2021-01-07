@@ -7,10 +7,14 @@ const useStyles = makeStyles((theme) => ({
   },
   
 <<<<<<< HEAD
+<<<<<<< HEAD
   HotPostHeader: {
 =======
   h1: {
 >>>>>>> 048884b... Added navigation for event links
+=======
+  HotPostHeader: {
+>>>>>>> a106866... Prettier
     fontSize:40,
     color:"red"
   },  
