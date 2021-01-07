@@ -6,7 +6,11 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.paper,
   },
   
+<<<<<<< HEAD
   HotPostHeader: {
+=======
+  h1: {
+>>>>>>> 048884b... Added navigation for event links
     fontSize:40,
     color:"red"
   },  
