@@ -3,6 +3,7 @@ import axios from "axios";
 
 import EventLink from "./EventLink";
 import PostList from "./PostList";
+import SideNav from "./SideNav";
 
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
@@ -14,10 +15,6 @@ export default function Home(props) {
 
   const goToForum = (id) => {
     props.history.push(`/forum/${id}`);
-  };
-
-  const goToEvent = (event_id) => {
-    window.location.reload();
   };
 
   useEffect(() => {
@@ -38,20 +35,10 @@ export default function Home(props) {
 
   return (
     <div className={classes.root}>
-      <div className={classes.sidenav}>
-        <h1 className={classes.h2}>Event Threads</h1>
-        <List component="nav">
-          {events.map((event) => (
-            <>
-              <ListItem button onClick={() => goToEvent()}>
-                <EventLink eventtitle={event.title} />
-              </ListItem>
-            </>
-          ))}
-        </List>
+      <div className={classes.nav_post_container}>
+        <SideNav></SideNav>
+        <PostList goToForum={goToForum} {...props} />
       </div>
-
-      <PostList goToForum={goToForum} {...props} />
     </div>
   );
 }
