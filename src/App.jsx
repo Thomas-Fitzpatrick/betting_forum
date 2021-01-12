@@ -18,9 +18,31 @@ function App() {
           />
           <Route
             exact
-            path="/game/:gameId"
+            path="/category/:catId"
             render={(routeProps) => (
-              <GameForum id={routeProps.match.params.gameId} {...routeProps} />
+              <Home
+                category
+                id={routeProps.match.params.catId}
+                {...routeProps}
+              />
+            )}
+          />
+          <Route
+            exact
+            path="/tournament/:tournamentId"
+            render={(routeProps) => (
+              <Home
+                tournament
+                id={routeProps.match.params.tournamentId}
+                {...routeProps}
+              />
+            )}
+          />
+          <Route
+            exact
+            path="/forum/:forumId"
+            render={(routeProps) => (
+              <GameForum id={routeProps.match.params.forumId} {...routeProps} />
             )}
           />
         </Switch>
