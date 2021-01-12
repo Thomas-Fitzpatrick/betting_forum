@@ -37,7 +37,7 @@ export default function PostList(props) {
 
   return (
     <div className={classes.root}>
-      <h1 className={classes.HotPostHeader}>Hot Posts</h1>
+      <h1 className={classes.HotPostHeader}>{`${id ? id : ""} Hot Posts`}</h1>
       <List component="nav" aria-label="secondary mailbox folders">
         {posts.map((post) => (
           <ListItem key={post.id} button onClick={() => goToForum(post.id)}>

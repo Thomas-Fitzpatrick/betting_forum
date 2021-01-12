@@ -1,5 +1,6 @@
 import { Route, Switch, BrowserRouter } from "react-router-dom";
 
+import Navbar from "./Navbar";
 import GameForum from "./GameForum";
 import Home from "./Home";
 
@@ -9,6 +10,7 @@ import "./App.css";
 function App() {
   return (
     <BrowserRouter>
+      <Navbar />
       <Container>
         <Switch>
           <Route

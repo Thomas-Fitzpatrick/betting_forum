@@ -2,11 +2,11 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 import EventLink from "./EventLink";
+import PostList from "./PostList";
 
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import useStyles from "./styles/HomeStyles";
-import PostList from "./PostList";
 
 export default function Home(props) {
   const classes = useStyles();
