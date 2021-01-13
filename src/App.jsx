@@ -1,5 +1,6 @@
 import { Route, Switch, BrowserRouter } from "react-router-dom";
 
+import Navbar from "./Navbar";
 import GameForum from "./GameForum";
 import Home from "./Home";
 
@@ -9,6 +10,7 @@ import "./App.css";
 function App() {
   return (
     <BrowserRouter>
+      <Navbar />
       <Container>
         <Switch>
           <Route
@@ -18,9 +20,31 @@ function App() {
           />
           <Route
             exact
-            path="/game/:gameId"
+            path="/category/:catId"
             render={(routeProps) => (
-              <GameForum id={routeProps.match.params.gameId} {...routeProps} />
+              <Home
+                category
+                id={routeProps.match.params.catId}
+                {...routeProps}
+              />
+            )}
+          />
+          <Route
+            exact
+            path="/tournament/:tournamentId"
+            render={(routeProps) => (
+              <Home
+                tournament
+                id={routeProps.match.params.tournamentId}
+                {...routeProps}
+              />
+            )}
+          />
+          <Route
+            exact
+            path="/forum/:forumId"
+            render={(routeProps) => (
+              <GameForum id={routeProps.match.params.forumId} {...routeProps} />
             )}
           />
         </Switch>
