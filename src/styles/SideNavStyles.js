@@ -2,8 +2,11 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    backgroundColor: "#1D1566",
+    backgroundColor: "gray",
     alignItems: "center",
+    marginTop: 10,
+    marginRight: 20,
+    width: 300,
   },
   EventHeader: {
     textAlign: "center",
