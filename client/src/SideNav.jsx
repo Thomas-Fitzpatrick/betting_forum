@@ -11,11 +11,12 @@ import EventLink from "./EventLink";
 export default function SideNav({ events }) {
   const classes = useStyles();
 
-  //ReRenderCat is a function passed down by the parent as a prop which will reload the hotposts/eventdata with the new id
   const goToEvent = (cat_title) => {
     console.log(cat_title);
     //ReRenderCat(new_cat_id);
   };
+  console.log("Got the events!");
+  console.log(events);
 
   return (
     <div className={classes.root}>
@@ -28,7 +29,7 @@ export default function SideNav({ events }) {
               button
               onClick={() => goToEvent(event)}
             >
-              <EventLink eventtitle={event} />
+              <EventLink eventtitle={event.EventName} />
             </ListItem>
           </>
         ))}
