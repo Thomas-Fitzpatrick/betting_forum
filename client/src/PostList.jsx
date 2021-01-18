@@ -31,7 +31,7 @@ export default function PostList(props) {
     };
 
     // remove these console.logs once we've verified that this gets called at all the right times. (wait till we have a client side routing directing here)
-    console.log("FETCHING FORUM DATA");
+
     fetchPosts();
   }, [category, tournament, id]);
 

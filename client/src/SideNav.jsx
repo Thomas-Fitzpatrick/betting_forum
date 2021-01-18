@@ -2,21 +2,13 @@ import React from "react";
 
 import useStyles from "./styles/SideNavStyles.js";
 
-import axios from "axios";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 
 import EventLink from "./EventLink";
 
-export default function SideNav({ events }) {
+export default function SideNav({ events, goToNext }) {
   const classes = useStyles();
-
-  const goToEvent = (cat_title) => {
-    console.log(cat_title);
-    //ReRenderCat(new_cat_id);
-  };
-  console.log("Got the events!");
-  console.log(events);
 
   return (
     <div className={classes.root}>
@@ -27,9 +19,9 @@ export default function SideNav({ events }) {
             <ListItem
               className={classes.ListItem}
               button
-              onClick={() => goToEvent(event)}
+              onClick={() => goToNext(event.id)}
             >
-              <EventLink eventtitle={event.EventName} />
+              <EventLink eventtitle={event.name} />
             </ListItem>
           </>
         ))}

@@ -5,5 +5,8 @@
     "client": "cd client && yarn start",
     "server": "cd server && nodemon server.js",
     "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "dependencies": {
+    "betfair-api-node": "^1.0.0"
   }
 }

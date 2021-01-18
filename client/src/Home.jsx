@@ -2,14 +2,16 @@ import React from "react";
 
 import SideNavHotPost from "./SideNavHotPost";
 
-import useStyles from "./styles/HomeStyles";
-
 export default function Home(props) {
-  const classes = useStyles();
-
-  const goToForum = (id) => {
-    props.history.push(`/forum/${id}`);
+  const goToTournament = (id) => {
+    props.history.push(`/tournament/${id}`);
   };
 
-  return <SideNavHotPost categoryid="Home" {...props}></SideNavHotPost>;
+  return (
+    <SideNavHotPost
+      categoryid="Home"
+      goToNext={(id) => goToTournament(id)}
+      {...props}
+    ></SideNavHotPost>
+  );
 }

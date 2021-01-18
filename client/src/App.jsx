@@ -3,6 +3,7 @@ import { Route, Switch, BrowserRouter } from "react-router-dom";
 import Navbar from "./Navbar";
 import GameForum from "./GameForum";
 import Home from "./Home";
+import Tournament from "./Tournament";
 
 import Container from "@material-ui/core/Container";
 import "./App.css";
@@ -33,7 +34,7 @@ function App() {
             exact
             path="/tournament/:tournamentId"
             render={(routeProps) => (
-              <Home
+              <Tournament
                 tournament
                 id={routeProps.match.params.tournamentId}
                 {...routeProps}
