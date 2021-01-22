@@ -1,0 +1,565 @@
+{
+	"sport": {
+		"tennis": {
+			"itf-women": {},
+			"challenger": {
+				"atp-challenger-guayaquil-ecuador-men-singles": {
+					"semifinals": {},
+					"final": {}
+				},
+				"atp-challenger-shenzhen-ii-china-men-singles": {
+					"round-of-16": {}
+				},
+				"atp-challenger-eckental-germany-men-singles": {
+					"round-of-16": {},
+					"quarterfinals": {},
+					"semifinals": {},
+					"final": {}
+				},
+				"atp-challenger-ortisei-italy-men-singles": {
+					"final": {}
+				},
+				"atp-challenger-maia-portugal-men-singles": {
+					"round-of-32": {},
+					"round-of-16": {},
+					"quarterfinals": {},
+					"semifinals": {},
+					"final": {}
+				}
+			},
+			"itf-men": {},
+			"atp": {
+				"atp-paris-france-men-singles": {
+					"round-of-32": {},
+					"round-of-16": {},
+					"quarterfinals": {},
+					"semifinals": {},
+					"final": {}
+				},
+				"atp-world-tour-finals-men-doubles": {
+					"semifinals": {},
+					"final": {}
+				},
+				"atp-world-tour-finals-men-singles": {
+					"semifinals": {},
+					"final": {}
+				}
+			},
+			"fed-cup": {
+				"fed-cup-world-group": {
+					"final": {}
+				}
+			},
+			"wta-125k": {},
+			"davis-cup": {
+				"davis-cup-single-matches": {
+					"round-16": {},
+					"semifinals": {}
+				},
+				"finals-davis-cup": {
+					"round-1": {}
+				},
+				"davis-cup": {
+					"fixtures": {},
+					"quarterfinals": {},
+					"semifinals": {},
+					"final": {}
+				}
+			},
+			"wta": {},
+			"exhibition": {},
+			"accumulators": {},
+			"outright": {},
+			"federation-cup": {
+				"fed-cup": {
+					"fixtures": {}
+				}
+			}
+		},
+		"boxing": {
+			"january-bouts": {},
+			"february-bouts": {},
+			"november-bouts": {},
+			"december-bouts": {},
+			"march-bouts": {}
+		},
+		"golf": {
+			"korn-ferry-tour-championship": {},
+			"pga-tour-world-money-list-2020": {}
+		},
+		"football": {
+			"outright": {
+				"euro-2020": {},
+				"serie-b": {},
+				"segunda-division": {},
+				"copa-libertadores": {},
+				"coppa-italia": {},
+				"league-cup": {},
+				"primera-division": {},
+				"dfb-pokal": {},
+				"spain-copa-del-rey": {},
+				"league-two": {},
+				"championship": {},
+				"national-league": {},
+				"uefa-euro": {},
+				"world-cup": {},
+				"uefa-euro-2020-qualification-group-b": {},
+				"uefa-euro-2020-qualification-group-e": {},
+				"ligue-1": {},
+				"ballon-d-or": {},
+				"copa-america": {},
+				"afc-champions-league": {},
+				"3-liga": {},
+				"ligue-2": {},
+				"scottish-league-cup": {},
+				"super-league": {},
+				"scottish-cup": {},
+				"scottish-championship": {},
+				"scottish-league-one": {},
+				"scottish-league-two": {},
+				"coupe-de-france": {},
+				"football-league-trophy": {},
+				"uefa-champions-league-group-a": {},
+				"uefa-champions-league-group-c": {},
+				"uefa-champions-league-group-d": {},
+				"uefa-champions-league-group-b": {},
+				"uefa-champions-league-group-e": {},
+				"uefa-champions-league-group-f": {},
+				"uefa-champions-league-group-h": {},
+				"uefa-champions-league-group-g": {},
+				"uefa-europa-league-group-a": {},
+				"uefa-europa-league-group-c": {},
+				"uefa-europa-league-group-b": {},
+				"uefa-europa-league-group-e": {},
+				"uefa-europa-league-group-f": {},
+				"uefa-europa-league-group-h": {},
+				"uefa-europa-league-group-k": {},
+				"uefa-europa-league-group-i": {},
+				"uefa-europa-league-group-j": {},
+				"uefa-euro-qualification-playoff-a": {},
+				"uefa-euro-qualification-playoff-b": {},
+				"uefa-euro-qualification-playoff-c": {},
+				"uefa-euro-qualification-playoff-d": {}
+			},
+			"accumulators": {
+				"saturday": {},
+				"friday": {},
+				"tuesday": {},
+				"wednesday": {},
+				"thursday": {},
+				"sunday": {},
+				"monday": {},
+				"other": {}
+			},
+			"israel-liga-alef-north": {},
+			"indonesia-liga-1": {},
+			"bulgaria-first-division": {},
+			"saudi-arabia-pro-league": {},
+			"uefa-champions-league": {},
+			"netherlands-beloften-eerste-divisie": {},
+			"afc-cup": {},
+			"uae-arabian-gulf-league": {},
+			"uefa-europa-league": {},
+			"czech-republic-premier-league": {},
+			"poland-ekstraklasa": {},
+			"england-premier-league": {},
+			"greece-super-league": {},
+			"england-fa-cup": {},
+			"israel-liga-leumit": {},
+			"germany-2-bundesliga": {},
+			"england-efl-trophy": {},
+			"spain-copa-del-rey": {},
+			"england-fa-trophy": {},
+			"european-championship-qualification": {},
+			"international-friendlies": {},
+			"african-cup-of-nations-qualification": {},
+			"england-league-1": {},
+			"england-league-2": {},
+			"england-national-league": {},
+			"scotland-challenge-cup": {},
+			"scotland-premiership": {},
+			"algeria-ligue-professionnelle-2": {},
+			"nigeria-premier-league": {},
+			"serbia-cup": {},
+			"friendlies": {},
+			"peru-segunda-division": {},
+			"copa-libertadores": {},
+			"belgium-first-division-a": {},
+			"club-friendlies": {},
+			"argentina-superliga": {},
+			"argentina-primera-nacional": {},
+			"austria-bundesliga": {},
+			"brazil-serie-a": {},
+			"chile-primera-division": {},
+			"colombia-categoria-primera-a": {},
+			"england-championship": {},
+			"france-cup": {},
+			"hungary-otp-bank-liga": {},
+			"japan-j-league": {},
+			"wales-premier-league": {},
+			"switzerland-super-league": {},
+			"spain-copa-federacion": {},
+			"slovenia-prva-liga": {},
+			"korea-republic-k-league-1": {},
+			"lithuania-a-lyga": {},
+			"slovakia-super-liga": {},
+			"mexico-liga-mx": {},
+			"scotland-championship": {},
+			"netherlands-eredivisie": {},
+			"scotland-league-one": {},
+			"russia-1-division": {},
+			"norway-premier-league": {},
+			"norway-first-division": {},
+			"portugal-cup": {},
+			"scotland-fa-cup": {},
+			"japan-j-league-2": {},
+			"spain-copa-catalunya": {},
+			"china-super-league": {},
+			"england-premier-league-2-division-1": {},
+			"peru-liga-1": {},
+			"morocco-botola": {},
+			"england-premier-league-2-division-2": {},
+			"england-national-league-south": {},
+			"england-national-league-north": {},
+			"portugal-primeira-liga": {},
+			"turkey-super-lig": {},
+			"turkey-1-lig": {},
+			"australia-a-league": {},
+			"afc-champions-league": {},
+			"scotland-league-two": {},
+			"denmark-superliga": {},
+			"denmark-1-division": {},
+			"croatia-first-division": {},
+			"czech-republic-second-divison": {},
+			"belarus-premier-league": {},
+			"france-ligue-1": {},
+			"france-ligue-2": {},
+			"germany-bundesliga": {},
+			"germany-3-liga": {},
+			"germany-regionalliga-sudwest": {},
+			"germany-regionalliga-nordost": {},
+			"italy-serie-b": {},
+			"netherlands-eerste-divisie": {},
+			"poland-first-league": {},
+			"romania-liga-1": {}
+		},
+		"snooker": {
+			"world-championship": {},
+			"outright": {},
+			"champion-of-champions": {
+				"semifinals": {},
+				"final": {}
+			},
+			"indian-open-qualifiers-2018": {
+				"round-1": {}
+			},
+			"european-masters-qualifiers-2018": {
+				"round-1": {}
+			},
+			"championship-league": {
+				"semifinals": {},
+				"final": {},
+				"fixtures": {}
+			},
+			"english-open": {
+				"quarterfinals": {},
+				"semifinals": {},
+				"final": {}
+			},
+			"northern-ireland-open": {
+				"qualification": {},
+				"quarterfinals": {},
+				"semifinals": {},
+				"final": {}
+			}
+		},
+		"baseball": {
+			"outright": {},
+			"mlb": {}
+		},
+		"american-football": {
+			"outright": {},
+			"accumulators": {},
+			"ncaa-regular": {},
+			"nfl": {}
+		},
+		"cricket": {
+			"outright": {},
+			"t20-vitality-blast": {},
+			"inter-provincial-twenty20": {},
+			"inter-provincial-limited-over-cup": {},
+			"caribbean-premier-league": {},
+			"sheffield-shield": {},
+			"national-t20-cup": {},
+			"big-bash-league-women": {},
+			"shpageeza-league": {},
+			"plunket-shield": {},
+			"t10-league": {},
+			"ford-trophy": {}
+		},
+		"darts": {
+			"premier-league": {},
+			"outright": {},
+			"accumulators": {},
+			"pdc-european-tour-international-darts-open": {
+				"round-of-32": {},
+				"round-of-16": {},
+				"quarterfinals": {},
+				"semifinals": {},
+				"final": {}
+			},
+			"world-grand-prix": {
+				"round-of-32": {},
+				"round-of-16": {},
+				"quarterfinals": {},
+				"semifinals": {},
+				"final": {}
+			},
+			"european-championship": {
+				"round-of-32": {},
+				"round-of-16": {},
+				"quarterfinals": {},
+				"semifinals": {},
+				"final": {}
+			},
+			"pdc-world-series-of-darts-finals": {
+				"quarterfinals": {},
+				"semifinals": {},
+				"final": {}
+			},
+			"grand-slam-of-darts": {
+				"round-of-16": {},
+				"quarterfinals": {},
+				"semifinals": {},
+				"final": {}
+			},
+			"pdc-players-championship": {
+				"round-of-64": {},
+				"round-of-32": {},
+				"round-of-16": {},
+				"quarterfinals": {},
+				"semifinals": {},
+				"final": {}
+			}
+		},
+		"basketball": {
+			"outright": {},
+			"lithuania-lkl": {},
+			"spain-liga-acb": {},
+			"germany-bbl": {},
+			"england-bbl": {},
+			"greece-a1": {},
+			"italy-serie-a": {},
+			"france-pro-a": {},
+			"republic-of-korea-kbl": {},
+			"accumulators": {},
+			"turkey-turkiye-kupasi": {},
+			"japan-b-league": {},
+			"nba": {},
+			"euroleague": {},
+			"champions-league": {},
+			"liga-aba": {},
+			"bbl": {},
+			"eurocup": {},
+			"ncaa-regular": {}
+		},
+		"ice-hockey": {
+			"accumulators": {},
+			"khl": {},
+			"allsvenskan": {},
+			"extraliga": {},
+			"shl": {},
+			"nhl": {}
+		},
+		"horse-racing": {
+			"kempton": {},
+			"wolverhampton": {},
+			"wetherby": {},
+			"leicester": {},
+			"navan": {},
+			"sedgefield": {},
+			"southwell": {},
+			"lingfield": {},
+			"huntingdon": {},
+			"limerick": {},
+			"musselburgh": {},
+			"ffos-las": {},
+			"warwick": {},
+			"thurles": {},
+			"gowran-park": {},
+			"fontwell": {},
+			"doncaster": {},
+			"fairyhouse": {},
+			"fakenham": {},
+			"cheltenham": {},
+			"hereford": {},
+			"punchestown": {},
+			"uttoxeter": {},
+			"ayr": {},
+			"ludlow": {},
+			"taunton": {},
+			"newcastle": {},
+			"down-royal": {},
+			"clonmel": {},
+			"wincanton": {},
+			"chepstow": {},
+			"catterick": {},
+			"sandown": {},
+			"naas": {},
+			"leopardstown": {},
+			"market-rasen": {},
+			"carlisle": {},
+			"newbury": {},
+			"exeter": {},
+			"plumpton": {},
+			"kelso": {},
+			"ascot": {},
+			"haydock": {},
+			"downpatrick": {},
+			"newton-abbot": {},
+			"stratford": {},
+			"wexford": {},
+			"hexham": {},
+			"cork": {},
+			"curragh": {},
+			"aintree": {},
+			"dundalk": {},
+			"windsor": {},
+			"pontefract": {},
+			"nottingham": {},
+			"beverley": {},
+			"ripon": {},
+			"thirsk": {},
+			"tramore": {},
+			"newmarket": {},
+			"tipperary": {},
+			"redcar": {},
+			"bath": {},
+			"epsom-downs": {},
+			"yarmouth": {},
+			"ballinrobe": {},
+			"perth": {},
+			"kilbeggan": {},
+			"goodwood": {},
+			"salisbury": {},
+			"sligo": {},
+			"hamilton": {},
+			"chester": {},
+			"roscommon": {},
+			"york": {},
+			"killarney": {},
+			"cartmel": {},
+			"listowel": {},
+			"royal-ascot": {},
+			"bellewstown": {},
+			"galway": {},
+			"longchamp": {},
+			"meydan": {},
+			"jebel-ali": {},
+			"chelmsford-city": {},
+			"antepost": {
+				"longchamp": {},
+				"aintree": {},
+				"epsom-downs": {},
+				"ascot": {},
+				"haydock": {},
+				"kempton": {},
+				"sandown": {},
+				"cheltenham": {},
+				"newbury": {}
+			},
+			"keeneland": {},
+			"sha-tin": {},
+			"chantilly": {},
+			"vaal": {},
+			"fairview": {},
+			"greyville": {},
+			"kenilworth": {},
+			"scottsville": {},
+			"turffontein": {},
+			"flamingo-park": {},
+			"belmont-park": {},
+			"rmg-extras": {},
+			"durbanville": {},
+			"bangor-on-dee": {},
+			"sakhir": {}
+		},
+		"rugby-league": {
+			"outright": {}
+		},
+		"handball": {
+			"handboldligaen": {},
+			"bundesliga": {}
+		},
+		"rugby": {
+			"outright": {},
+			"accumulators": {},
+			"english-premiership": {},
+			"pro-d2": {},
+			"european-challenge-cup": {}
+		},
+		"motorsports": {
+			"outright": {}
+		},
+		"volleyball": {},
+		"cycling": {
+			"outright": {}
+		},
+		"tour-de-france": {}
+	},
+	"cycling": {},
+	"politics": {
+		"uk": {
+			"by-elections": {},
+			"next-pm": {
+				"next-pm": {}
+			},
+			"london-mayoral-election": {},
+			"brexit": {},
+			"uk-party-leaders": {
+				"next-conservative-leader": {},
+				"snp-leader": {},
+				"borisjohnson": {}
+			},
+			"scottish-independence": {},
+			"shadow-cabinet-ministers": {},
+			"northern-ireland": {},
+			"nigel-farage": {},
+			"borisjohnson": {}
+		},
+		"world": {
+			"new-zealand": {},
+			"brazil": {},
+			"australian-politics": {},
+			"israel": {},
+			"world-leaders": {}
+		},
+		"europe": {
+			"spain": {},
+			"germany": {
+				"next-german-chancellor-2019": {}
+			},
+			"eu": {},
+			"portugal": {},
+			"romania": {},
+			"bulgaria": {}
+		},
+		"ireland": {},
+		"us": {
+			"us-presidential-election-2020": {},
+			"us-supreme-court": {},
+			"us-2020-senate": {}
+		},
+		"donald-trump": {}
+	},
+	"uk": {},
+	"budget": {},
+	"tv-and-entertainment": {
+		"strictly-come-dancing": {},
+		"im-a-celebrity-get-me-out-of-here": {},
+		"eurovision": {}
+	},
+	"bbc-sports-personality": {},
+	"current-affairs": {},
+	"finance": {}
+}
