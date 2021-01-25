@@ -18,8 +18,8 @@ export default function SideNavHotPost(props) {
     props.history.push(`/forum/${id}`);
   };
 
-  const fetchEvents = async (cat_id) => {
-    const events = await axios.get("/api/events".concat(cat_id));
+  const fetchEvents = async () => {
+    const events = await axios.get("/api/events");
     console.log(events.data);
     setChildEvents(events.data);
   };
@@ -32,7 +32,7 @@ export default function SideNavHotPost(props) {
       switch (props.categoryid) {
         case "Home":
           console.log("Grabbing baseline events for home page");
-          fetchEvents("");
+          fetchEvents();
           break;
 
         default:

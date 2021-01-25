@@ -29,7 +29,7 @@ export default function SideNav({ events }) {
               button
               onClick={() => goToEvent(event)}
             >
-              <EventLink eventtitle={event.EventName} />
+              <EventLink eventtitle={event.Name} />
             </ListItem>
           </>
         ))}
